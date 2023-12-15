@@ -1,6 +1,6 @@
 package com.example.Ecom.Repositories;
 
-import com.example.Ecom.Classes.User;
+import com.example.Ecom.Models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

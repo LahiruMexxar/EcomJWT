@@ -1,6 +1,6 @@
 package com.example.Ecom.Controllers;
 
-import com.example.Ecom.Classes.Product;
+import com.example.Ecom.Models.Product;
 import com.example.Ecom.DTO.ApiResponse;
 import com.example.Ecom.Repositories.ProductRepository;
 import com.example.Ecom.Services.ProductService;
@@ -66,7 +66,7 @@ public class ProductController {
 
             return productService.saveProduct(product);
         } catch (Exception e) {
-            // Log the exception for internal analysis if needed
+            // Log the exception for internal analysis
             return ResponseEntity.status(500).body(new ApiResponse<>(500, "Internal server error.", new ArrayList<>()));
         }
     }

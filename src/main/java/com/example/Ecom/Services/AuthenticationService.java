@@ -1,6 +1,6 @@
 package com.example.Ecom.Services;
 
-import com.example.Ecom.Classes.*;
+import com.example.Ecom.Models.*;
 import com.example.Ecom.Repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

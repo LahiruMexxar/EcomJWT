@@ -1,4 +1,4 @@
-package com.example.Ecom.Classes;
+package com.example.Ecom.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

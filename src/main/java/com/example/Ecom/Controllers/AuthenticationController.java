@@ -1,21 +1,12 @@
 package com.example.Ecom.Controllers;
 
-import com.example.Ecom.Classes.AuthenRequest;
-import com.example.Ecom.Classes.AuthenticationResponse;
-import com.example.Ecom.Classes.RegisterRequest;
-import com.example.Ecom.Classes.User;
-import com.example.Ecom.Repositories.UserRepository;
+import com.example.Ecom.Models.AuthenRequest;
+import com.example.Ecom.Models.AuthenticationResponse;
+import com.example.Ecom.Models.RegisterRequest;
 import com.example.Ecom.Services.AuthenticationService;
-import com.example.Ecom.Services.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

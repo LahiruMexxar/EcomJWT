@@ -1,6 +1,6 @@
 package com.example.Ecom.Services;
 
-import com.example.Ecom.Classes.Product;
+import com.example.Ecom.Models.Product;
 import com.example.Ecom.DTO.ApiResponse;
 import com.example.Ecom.Repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.Ecom.Classes;
+package com.example.Ecom.Models;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.example.Ecom.Classes.Permission.*;
+import static com.example.Ecom.Models.Permission.*;
 
 @RequiredArgsConstructor
 public enum Role {
